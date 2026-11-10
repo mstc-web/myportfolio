@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { motion } from 'framer-motion'
 import { useScroll } from './useScroll'
 import { introAnimation } from './animation'
-import { HashLink } from 'react-router-hash-link'
 
 function About() {
     const [element, controls] = useScroll();

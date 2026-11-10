@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
@@ -51,19 +51,19 @@ const Contact = () => {
 
                     <div className="info">
                         <LocationOnIcon className='small_icons' />
-                        <a href="https://goo.gl/maps/kLEdodshrR8NYAFy6" target="_blank">Bhiwandi, Maharashtra</a>
+                        <a href="https://goo.gl/maps/kLEdodshrR8NYAFy6" target="_blank" rel="noreferrer">Bhiwandi, Maharashtra</a>
                     </div>
 
                     <div className="socialMedia">
-                        <a href="https://twitter.com/dreaminstudent" target="_blank" >
+                        <a href="https://twitter.com/dreaminstudent" target="_blank" rel="noreferrer">
                             <TwitterIcon />
                         </a>
 
-                        <a href="https://www.instagram.com/ansari_usamaa/" target="_blank" >
+                        <a href="https://www.instagram.com/ansari_usamaa/" target="_blank" rel="noreferrer">
                             <InstagramIcon />
                         </a>
 
-                        <a href="https://www.linkedin.com/in/usama-ansari-13b06421b/" target="_blank" >
+                        <a href="https://www.linkedin.com/in/usama-ansari-13b06421b/" target="_blank" rel="noreferrer">
                             <LinkedInIcon />
                         </a>
                     </div>
@@ -73,7 +73,7 @@ const Contact = () => {
 
                 </Socials>
 
-                <Form autocomplete="off" action='https://formsubmit.co/au9970@gmail.com' method='POST'>
+                <Form autoComplete="off" action='https://formsubmit.co/au9970@gmail.com' method='POST'>
 
                     <div className="contact_info">
 
@@ -125,22 +125,22 @@ const Contact = () => {
                         <div className='radioButtons'>
                             <div className='btn'>
                                 <input type="radio" id="web_design" name="service" value="web_design" />
-                                <label for="web_design">Web Design</label>
+                                <label htmlFor="web_design">Web Design</label>
                             </div>
 
                             <div className='btn'>
                                 <input type="radio" id="web_development" name="service" value="web_development" />
-                                <label for="web_development">Web Development</label>
+                                <label htmlFor="web_development">Web Development</label>
                             </div>
 
                             <div className='btn'>
-                                <input type="radio" id="web_development" name="service" value="web_development" />
-                                <label for="web_development">Motion Graphics</label>
+                                <input type="radio" id="motion_graphics" name="service" value="motion_graphics" />
+                                <label htmlFor="motion_graphics">Motion Graphics</label>
                             </div>
 
                             <div className='btn'>
                                 <input type="radio" id="other" name="service" value="other" />
-                                <label for="other">Other</label>
+                                <label htmlFor="other">Other</label>
                             </div>
                         </div>
 

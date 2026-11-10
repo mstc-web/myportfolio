@@ -92,17 +92,3 @@ const IntroText = styled.div`
         }
     }
 `;
-
-const ImgContainer = styled.div`
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: skyblue; */
-`;
-
-const Image = styled.img`
-    width: 25vw;
-    height: 25vw;
-    border-radius: 500px;
-`

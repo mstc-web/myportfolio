@@ -72,8 +72,8 @@ function Work(props) {
             </Title>
 
             <Works>
-                {sites.map((site, index) => {
-                    return <WorkContainer name={site.name} url={site.url} image={site.image} />
+                {sites.map((site) => {
+                    return <WorkContainer key={site.name} name={site.name} url={site.url} image={site.image} />
                 })}
             </Works>
         </>

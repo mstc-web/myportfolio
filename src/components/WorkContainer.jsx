@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function WorkContainer(props) {
     return (
-        <Container href={props.url} target='_blank' img={props.image}
+        <Container href={props.url} target='_blank' rel="noreferrer" img={props.image}
             whileHover={{
                 scale: 1.1
             }}

@@ -49,13 +49,14 @@ function Header() {
                     links.map((link) => {
                         return (
                             <motion.div
+                                key={link.id}
                                 variants={navAnimation}
                                 transition={{
                                     delay: 0.1,
                                     type: "spring"
                                 }}
                                 animate={controls}>
-                                <NavLink activeClass="activeClass" key={link.id}
+                                <NavLink
                                     to={link.to}
                                 >
                                     {link.name}
